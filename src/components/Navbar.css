@@ -1,21 +1,22 @@
-ul {
+.nav-bar ul {
   background-color: #fff;
   list-style: none;
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
-ul a {
+.nav-bar ul a {
   text-decoration: none;
 }
 
-ul li {
+.nav-bar ul li {
   color: black;
   transition: 0.2s;
   padding: 0.8rem;
 }
 
-ul li:hover {
+.nav-bar ul li:hover {
   color: #fff;
   background-color: black;
 }
